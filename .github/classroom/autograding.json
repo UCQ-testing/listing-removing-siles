@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Carter",
+      "setup": "",
+      "run": "./my_command.sh Carter",
+      "input": "./files/a.txt\n./files/b.txt\n",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
