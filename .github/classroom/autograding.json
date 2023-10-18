@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "Carter",
+      "name": "Listing files in dir files",
       "setup": "",
-      "run": "./my_command.sh Carter",
+      "run": "./my_command.sh -f files",
       "input": "./files/a.txt\n./files/b.txt\n",
       "output": "",
       "comparison": "exact",
