@@ -6,4 +6,5 @@ en caso de no ser un directorio deberas de mostrar la leyenda `Please select a v
 
 # Eliminar aarcihvos
 Deberas de agregar la funcionalidad a tu script de eliminar archivos que contengan la palabra
-que se pase como parametro, por ejemplo `./my_command -D -d <<directorio>> -w <<palabra>>`
+que se pase como parametro, por ejemplo `./my_command -D -d <<directorio>> -w <<palabra>>` al
+terminar deberas de listar lo archivos del directorio nuevamente.

@@ -3,12 +3,22 @@
     {
       "name": "Listing files in dir files",
       "setup": "",
-      "run": "./my_command.sh -f files",
+      "run": "./my_command.sh -d files",
       "input": "./files/a.txt\n./files/b.txt\n",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 100
+      "points": 50
+    },
+    {
+      "name": "Deleting file ",
+      "setup": "",
+      "run": "./my_command.sh -D -d . -w xochimilco",
+      "input": "./files/a.txt\n",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 50
     }
   ]
 }
