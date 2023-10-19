@@ -11,7 +11,7 @@
       "points": 50
     },
     {
-      "name": "Deleting file ",
+      "name": "Deleting file with xochimilco word",
       "setup": "",
       "run": "./my_command.sh -D -d . -w xochimilco",
       "input": "./files/a.txt\n",
